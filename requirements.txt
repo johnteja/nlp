@@ -1,0 +1,11 @@
+import streamlit as st
+
+# NLP pkgs
+import spacy
+from textblob import TextBlob
+from gensim.summarization.summarizer import summarize
+
+# sumy pkg
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.lex_rank import LexRankSummarizer
